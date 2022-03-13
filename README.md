@@ -1,5 +1,6 @@
 # object_detection
 
+### Need to show prediction probability real-time any where in the video. Make the probability green in color if it’s above 80 otherwise red
 
 
 ### Install required packages from requirements.txt
