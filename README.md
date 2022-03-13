@@ -20,6 +20,6 @@
 
 ## How to use
 
-- Fork this repo
-- Install required packages from `pip install -r requirements.txt`
-- Execute the `python detection.py --video input.mp4` file.
+1. Fork this repo
+2. Install required packages from `pip install -r requirements.txt`
+3. Execute the `python detection.py --video input.mp4` file.
