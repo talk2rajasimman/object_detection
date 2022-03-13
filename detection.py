@@ -9,7 +9,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument('-d', '--display', dest='display', type=int,
                 default=1, help='Display the detected images using OpenCV. This reduces FPS')
 
-ap.add_argument("-i", "--image" , required = True, help = "Path to the image")
+ap.add_argument("-v", "--video" , required = True, help = "Path to the image")
 
 args = vars(ap.parse_args())
 
@@ -18,7 +18,7 @@ detection_graph, sess = detector_utils.load_inference_graph()
 if __name__ == '__main__':
     
     # This will return video from the first webcam on your computer.
-    cap = cv2.VideoCapture(args['image'])  
+    cap = cv2.VideoCapture(args['video'])  
     
     # loop runs if capturing has been initialized. 
     im_height, im_width = (None, None)
