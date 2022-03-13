@@ -1,6 +1,6 @@
 # Object detection using deep learning with OpenCV and Python
 
-### Need to show prediction probability real-time any where in the video. Make the probability green in color if it’s above 80 otherwise red
+### Need to show prediction probability real-time any where in the video. Make the probability green in color if it’s above 80 otherwise red.
 
 
 #### In this project, I have used SSD_MobileNet_V2 to detect objects in videos. This project use prebuild model and weights.
