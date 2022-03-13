@@ -4,3 +4,6 @@
 
 `pip install -r requirements.txt`
 
+
+`python detection.py --image input.mp4`
+
