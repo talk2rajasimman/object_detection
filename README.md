@@ -10,5 +10,5 @@
 
 ### Run python code
 
-`python detection.py --image input.mp4`
+`python detection.py --video input.mp4`
 
